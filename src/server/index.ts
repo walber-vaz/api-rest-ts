@@ -3,7 +3,7 @@ import morgan from 'morgan';
 import helmet from 'helmet';
 import cors from 'cors';
 
-import { router } from '../routes/';
+import { router } from '../routes';
 
 const server = express();
 
